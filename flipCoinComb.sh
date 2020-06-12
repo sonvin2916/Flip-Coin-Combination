@@ -2,7 +2,7 @@
 declare -A dict
 head=0
 tail=0
-num=20
+num=10
 for (( i=0; i<=num; i++ ))
 do
 	flip=$(($RANDOM%3))
